@@ -5,14 +5,16 @@ import Card from "./Card";
 export default function Main() {
   return (
     <HStack
-      spacing={120}
+      flexDir={["column-reverse", "column-reverse", "column-reverse", "row"]}
+      spacing={[0, 0, 0, 120]}
       pt={85}
       fontSize={"lg"}
       align={"baseline"}
       w={"100%"}>
       <VStack
         align={"flex-start"}
-        w={"60%"}
+        w={"100%"}
+        flexBasis={["100%", "100%", "100%", "60%"]}
         spacing={12}>
         <Text
           color={"brand.white"}
@@ -30,7 +32,9 @@ export default function Main() {
           users to connect with other crypto enthusiasts from all over the
           world.
         </Text>
-        <HStack gap={16}>
+        <HStack
+          flexDir={["column", "column", "column", "row"]}
+          gap={16}>
           <Box>
             <Box mb={10}>
               <Text
@@ -106,7 +110,10 @@ export default function Main() {
           </Box>
         </HStack>
       </VStack>
-      <Box w={"35%"}>
+      <Box
+        pb={[16, 16, 16, 0]}
+        w={"100%"}
+        flexBasis={["100%", "100%", "100%", "35%"]}>
         <Card />
       </Box>
     </HStack>
