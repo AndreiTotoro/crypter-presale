@@ -6,7 +6,7 @@ import Main from "../components/Main";
 
 export default function Home() {
   return (
-    <Container maxW={1500}>
+    <Container maxW={1700}>
       <VStack
         minH={"100vh"}
         justify={"space-between"}>

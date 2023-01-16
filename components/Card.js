@@ -3,6 +3,7 @@ import {
   Button,
   Divider,
   HStack,
+  Input,
   Slider,
   SliderFilledTrack,
   SliderThumb,
@@ -81,14 +82,13 @@ export default function Card() {
             <Box color={"tomato"} />
           </SliderThumb>
         </Slider>
-        <VStack width={"100%"}>
-          <Divider borderColor={"black"} />
-          <Text
-            color={"brand.lightGray"}
-            alignSelf={"flex-end"}>
-            Max
-          </Text>
-        </VStack>
+        <Input
+          textAlign={"right"}
+          rounded={"lg"}
+          placeholder={"MAX"}
+          size={"lg"}
+          border={"1px solid #1E2327"}
+          shadow={"2xl"}></Input>
       </VStack>
       <VStack
         spacing={8}
