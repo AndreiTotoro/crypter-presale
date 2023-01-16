@@ -1,5 +1,10 @@
-import { Text } from "@chakra-ui/react";
+import Navbar from "@/components/Navbar";
+import { Box, Container, Text } from "@chakra-ui/react";
 
 export default function Home() {
-  return <></>;
+  return (
+    <Container maxW={1500}>
+      <Navbar />
+    </Container>
+  );
 }
