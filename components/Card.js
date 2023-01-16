@@ -15,6 +15,7 @@ import React from "react";
 export default function Card() {
   return (
     <VStack
+      w={"100%"}
       spacing={8}
       p={7}
       align={"flex-start"}

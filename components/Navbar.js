@@ -4,6 +4,7 @@ import React from "react";
 export default function Navbar() {
   return (
     <HStack
+      w={"100%"}
       align={"center"}
       my={10}
       justify={"space-between"}>
