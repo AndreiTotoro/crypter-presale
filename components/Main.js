@@ -7,8 +7,8 @@ export default function Main() {
     <HStack
       flexDir={["column-reverse", "column-reverse", "column-reverse", "row"]}
       spacing={[0, 0, 0, 120]}
-      pt={85}
-      fontSize={"lg"}
+      pt={45}
+      fontSize={"md"}
       align={"baseline"}
       w={"100%"}>
       <VStack

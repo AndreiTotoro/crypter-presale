@@ -1,4 +1,4 @@
-import { Button, HStack, Text } from "@chakra-ui/react";
+import { Button, HStack, Image, Text } from "@chakra-ui/react";
 import React from "react";
 
 export default function Navbar() {
@@ -8,12 +8,9 @@ export default function Navbar() {
       align={"center"}
       my={10}
       justify={"space-between"}>
-      <Text
-        fontWeight={"bold"}
-        fontSize={"3xl"}
-        color="brand.white">
-        Crypter
-      </Text>
+      <Image
+        src="logo.svg"
+        width={[150, 150, 270]}></Image>
       <Button
         rounded={"10em"}
         bg="brand.neon"
