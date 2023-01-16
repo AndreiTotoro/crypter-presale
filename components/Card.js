@@ -83,6 +83,7 @@ export default function Card() {
           </SliderThumb>
         </Slider>
         <Input
+          color={"white"}
           textAlign={"right"}
           rounded={"lg"}
           placeholder={"MAX"}
