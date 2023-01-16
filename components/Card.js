@@ -15,15 +15,17 @@ import React from "react";
 export default function Card() {
   return (
     <VStack
+      shadow={"2xl"}
       w={"100%"}
       spacing={8}
-      p={7}
+      p={10}
+      pb={12}
       align={"flex-start"}
       rounded={"2xl"}
       bg={"brand.gray"}>
       <Text
-        fontWeight={"bold"}
-        fontSize={"xl"}
+        fontWeight={"extrabold"}
+        fontSize={"2xl"}
         color={"brand.neon"}>
         Presale starts in:
       </Text>
@@ -34,7 +36,7 @@ export default function Card() {
         <VStack>
           <Text
             fontWeight={"bold"}
-            fontSize={"3xl"}>
+            fontSize={"4xl"}>
             07
           </Text>
           <Text color={"brand.lightGray"}>DAYS</Text>
@@ -42,7 +44,7 @@ export default function Card() {
         <VStack>
           <Text
             fontWeight={"bold"}
-            fontSize={"3xl"}>
+            fontSize={"4xl"}>
             16
           </Text>
           <Text color={"brand.lightGray"}>HRS</Text>
@@ -50,7 +52,7 @@ export default function Card() {
         <VStack>
           <Text
             fontWeight={"bold"}
-            fontSize={"3xl"}>
+            fontSize={"4xl"}>
             27
           </Text>
           <Text color={"brand.lightGray"}>MINS</Text>
@@ -58,7 +60,7 @@ export default function Card() {
         <VStack>
           <Text
             fontWeight={"bold"}
-            fontSize={"3xl"}>
+            fontSize={"4xl"}>
             39
           </Text>
           <Text color={"brand.lightGray"}>SECS</Text>

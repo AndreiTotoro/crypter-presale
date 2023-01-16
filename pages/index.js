@@ -1,7 +1,8 @@
 import Footer from "@/components/Footer";
 import Navbar from "@/components/Navbar";
 import { Box, Container, Text, VStack } from "@chakra-ui/react";
-import Card from "../components/Card";
+
+import Main from "../components/Main";
 
 export default function Home() {
   return (
@@ -9,9 +10,9 @@ export default function Home() {
       <VStack
         minH={"100vh"}
         justify={"space-between"}>
-        <Box w={"100%"}>
+        <Box w={"90%"}>
           <Navbar />
-          <Card />
+          <Main />
         </Box>
         <Footer />
       </VStack>
