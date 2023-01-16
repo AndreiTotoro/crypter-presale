@@ -9,6 +9,7 @@ const theme = extendTheme({
       white: "#FFFFFF",
       neon: "#C6FF00",
       gray: "#1A1E21",
+      lightGray: "#5C5C5C",
     },
   },
   styles: {
